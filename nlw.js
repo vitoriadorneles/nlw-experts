@@ -1,93 +1,93 @@
-const perguntas = [ //array ou vetores
+const perguntas = [
     {
-        pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
+        pergunta: "Qual é a distância mínima de segurança que deve ser mantida ao disparar uma arma de airsoft em um jogador?",
         respostas: [
-            "var myVar;",
-            "let myVar;",
-            "const myVar;",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual é o resultado da expressão '3' + 2 em JavaScript?",
-        respostas: [
-            "32",
-            "5",
-            "A expressão é inválida",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual função é usada para imprimir algo no console em JavaScript?",
-        respostas: [
-            "print()",
-            "console.log()",
-            "display()",
+            "10 metros",
+            "5 metros",
+            "20 metros",
         ],
         correta: 1
     },
     {
-        pergunta: "Como você acessa o primeiro elemento de um array em JavaScript?",
+        pergunta: "Qual é o FPS (pés por segundo) máximo permitido para armas de airsoft em jogos de campo aberto?",
         respostas: [
-            "array[0]",
-            "array.first()",
-            "array.getFirst()",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é a saída do seguinte código: console.log(typeof(10))?",
-        respostas: [
-            "number",
-            "string",
-            "integer",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Como você define uma função em JavaScript?",
-        respostas: [
-            "function myFunction() {}",
-            "def myFunction() {}",
-            "fn myFunction() {}",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "O que o método 'map()' faz em JavaScript?",
-        respostas: [
-            "Itera sobre os elementos de um array e retorna um novo array com base em uma função de callback",
-            "Ordena os elementos de um array",
-            "Remove elementos duplicados de um array",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é o operador de atribuição em JavaScript?",
-        respostas: [
-            "==",
-            "=",
-            ":=",
+            "200 FPS",
+            "400 FPS",
+            "600 FPS",
         ],
         correta: 1
     },
     {
-        pergunta: "O que é uma closure em JavaScript?",
+        pergunta: "Quais são os tipos comuns de armas de airsoft?",
         respostas: [
-            "Um tipo de função",
-            "Um tipo de loop",
-            "Uma função que mantém uma referência ao seu ambiente léxico",
+            "Elétricas, a gás e de mola",
+            "De chumbo, de plástico e de madeira",
+            "Automáticas, semiautomáticas e manuais",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "O que é necessário para participar de um jogo de airsoft em uma área oficial?",
+        respostas: [
+            "Permissão do governo local",
+            "Idade mínima de 18 anos e equipamento de segurança adequado",
+            "Nada, é um esporte aberto para todos",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é a função do código S.A.A.S. (Sistema de Acompanhamento de Ações Seguras) em eventos de airsoft?",
+        respostas: [
+            "Controlar o acesso ao campo de jogo",
+            "Registrar o desempenho dos jogadores durante as partidas",
+            "Promover a segurança e monitorar comportamentos inadequados",
         ],
         correta: 2
     },
     {
-        pergunta: "Qual método é usado para remover o último elemento de um array em JavaScript?",
+        pergunta: "O que significa 'hit' em um jogo de airsoft?",
         respostas: [
-            "pop()",
-            "removeLast()",
-            "deleteLast()",
+            "Um jogador alcançou o objetivo principal",
+            "Um jogador foi atingido por um disparo válido",
+            "Um jogador está a uma distância perigosa de outra pessoa",
         ],
-        correta: 0
+        correta: 1
+    },
+    {
+        pergunta: "Qual é o equipamento de segurança mais importante para um jogador de airsoft?",
+        respostas: [
+            "Óculos de sol",
+            "Máscara de proteção facial",
+            "Protetor auricular",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Quais são as principais regras de etiqueta em um campo de airsoft?",
+        respostas: [
+            "Não falar durante o jogo",
+            "Manter a calma em caso de discussão",
+            "Respeitar as decisões do árbitro e tratar os outros jogadores com cortesia",
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Como se chama o processo de recarregar um carregador de airsoft com bbs?",
+        respostas: [
+            "Reabastecimento",
+            "Reload",
+            "Speedloader",
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Qual é a velocidade de uma bb padrão de airsoft?",
+        respostas: [
+            "100 metros por segundo",
+            "200 metros por segundo",
+            "300 metros por segundo",
+        ],
+        correta: 1
     },
 ];
 
